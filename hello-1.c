@@ -3,7 +3,7 @@
 
 int init_module(void)
 {
-	printk(KERN_INFO "Hello world.\n");
+	printk(KERN_INFO "Hello world 1.\n");
 
 	return 0;
 }
