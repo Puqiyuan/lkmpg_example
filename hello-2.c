@@ -2,6 +2,9 @@
 #include <linux/kernel.h>
 #include <linux/init.h>
 
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Cauchy");
+
 static int __init hello_2_init(void)
 {
 	printk(KERN_INFO "Hello, world 2\n");

@@ -1,6 +1,8 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/init.h>
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Cauchy");
 
 static int hello3_data __initdata = 3;
 
